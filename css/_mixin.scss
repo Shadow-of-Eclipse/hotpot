@@ -47,13 +47,13 @@
 @mixin title-front {
     font-size: 4rem;
     color: $hotpot-yellow;
-    font-family:'Courier New', Courier, monospace;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 700;
 }
 
 @mixin title-back {
     font-size: 4rem;
     color: $hotpot-red;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 700;
 }

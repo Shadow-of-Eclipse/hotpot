@@ -13,13 +13,13 @@ body main header .homepage-link {
 body main header div.title-front {
   font-size: 4rem;
   color: rgb(255, 255, 0);
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-weight: 700;
 }
 body main header div.title-back {
   font-size: 4rem;
   color: rgb(220, 60, 0);
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-weight: 700;
 }
 body main header nav {
