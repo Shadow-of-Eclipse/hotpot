@@ -7,7 +7,6 @@ $link-font-color:rgb(200, 255, 50);
 
 body {
     main {
-        @include main;
         header {
             @include header-style;
             .logo {
@@ -30,7 +29,9 @@ body {
                 }
             }
             
-        
+        section.background-image {
+            @include background-image;
+        }
 
         section {
             .menu-photo, .comment {

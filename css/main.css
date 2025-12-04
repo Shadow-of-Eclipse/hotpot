@@ -1,11 +1,3 @@
-body main {
-  background-image: url("../image/formal background.jpg");
-  background-size: cover;
-  background-position: center;
-  background-color: rgba(0, 0, 0, 0.5);
-  padding-bottom: 10px;
-  margin-bottom: 0;
-}
 body main header {
   background: url("../image/starry night.jpg");
   height: 100%;
@@ -22,6 +14,7 @@ body main nav a {
   text-decoration: none;
   color: rgb(200, 255, 50);
   font-weight: 500;
+  margin-bottom: 0;
 }
 body main nav a:hover {
   color: rgb(255, 150, 0);
@@ -32,6 +25,14 @@ body main nav :focus {
 body main nav .active-page {
   font-weight: bolder;
   color: rgb(0, 220, 220);
+}
+body main section.background-image {
+  background-image: url("../image/formal background.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 10px 0 10px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 body main section .menu-photo, body main section .comment {
   text-align: center;

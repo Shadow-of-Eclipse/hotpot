@@ -1,9 +1,9 @@
-@mixin main {
+@mixin background-image {
     background-image: url("../image/formal background.jpg"); 
     background-size:cover;
     background-position: center; 
-    background-color:rgba($color: #000000, $alpha: 0.5);
-    padding-bottom: 10px;
+    padding: 10px 0 10px;
+    margin-top: 0;
     margin-bottom: 0;
 }
 
@@ -28,6 +28,7 @@
     text-decoration: none;
     color: $link-font-color;
     font-weight: 500;
+    margin-bottom: 0;
 }
 
 @mixin active-page {
