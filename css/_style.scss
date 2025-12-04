@@ -6,46 +6,50 @@ $button-active: rgb(0, 220, 220);
 $link-font-color:rgb(200, 255, 50);
 
 body {
-    @include body;
-    header {
-        @include header-style;
-        .logo {
-            @include logo-layout;
-        }
-    }
-    nav {
-        font-family: monospace;
-            a {
-                @include navbar
-            }
-            a:hover {
-                color: rgb(255, 150, 0);
-            }
-            :focus {
-                color: white;
-            }
-            .active-page {
-                @include active-page
+    main {
+        @include main;
+        header {
+            @include header-style;
+            .logo {
+                @include logo-layout;
             }
         }
+        nav {
+            font-family: monospace;
+                a {
+                    @include navbar
+                }
+                a:hover {
+                    color: rgb(255, 150, 0);
+                }
+                :focus {
+                    color: white;
+                }
+                .active-page {
+                    @include active-page
+                }
+            }
+            
         
-    
 
-    section {
-        .menu-photo, .comment {
-            text-align: center;
-        }
-        .meat, .seafood, .beverage {
-            color: $hotpot-red;
-        }
-        figcaption.figure-caption {
-            color: black;
-        }
-        .store-info {
-            text-align: center;
+        section {
+            .menu-photo, .comment {
+                text-align: center;
+            }
+            .meat, .seafood, .beverage {
+                color: $hotpot-red;
+            }
+            figcaption.figure-caption {
+                color: black;
+            }
+            .store-info {
+                text-align: center;
+            }
+            .all-you-can-eat-video {
+                @include all-you-can-eat-video
+            }
         }
     }
-
     footer {
         @include footer
     }

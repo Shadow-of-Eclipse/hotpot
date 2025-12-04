@@ -1,44 +1,52 @@
-body {
+body main {
   background-image: url("../image/formal background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding-bottom: 50px;
+  margin-bottom: 0;
 }
-body header {
+body main header {
   background: url("../image/starry night.jpg");
   height: 100%;
   text-align: center;
 }
-body header .logo {
+body main header .logo {
   display: inline;
   height: 200px;
 }
-body nav {
+body main nav {
   font-family: monospace;
 }
-body nav a {
+body main nav a {
   text-decoration: none;
   color: rgb(200, 255, 50);
   font-weight: 500;
 }
-body nav a:hover {
+body main nav a:hover {
   color: rgb(255, 150, 0);
 }
-body nav :focus {
+body main nav :focus {
   color: white;
 }
-body nav .active-page {
+body main nav .active-page {
   font-weight: bolder;
   color: rgb(0, 220, 220);
 }
-body section .menu-photo, body section .comment {
+body main section .menu-photo, body main section .comment {
   text-align: center;
 }
-body section .meat, body section .seafood, body section .beverage {
+body main section .meat, body main section .seafood, body main section .beverage {
   color: rgb(220, 60, 0);
 }
-body section figcaption.figure-caption {
+body main section figcaption.figure-caption {
   color: black;
 }
-body section .store-info {
+body main section .store-info {
   text-align: center;
+}
+body main section .all-you-can-eat-video {
+  margin-bottom: 20px;
 }
 body footer {
   background-color: rgb(220, 160, 0);
