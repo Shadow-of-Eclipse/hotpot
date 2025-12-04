@@ -16,7 +16,7 @@ body main header .logo {
   height: 200px;
 }
 body main nav {
-  font-family: monospace;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 body main nav a {
   text-decoration: none;
