@@ -12,7 +12,10 @@ body {
             @include header-style;
             .logo {
                 @include logo-layout;
-            }      
+            }     
+            .homepage-link {
+                @include homepage-link;
+            } 
             div.title-front {
                 @include title-front;
             }       

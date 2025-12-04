@@ -18,6 +18,10 @@
     height: 200px;
 }
 
+@mixin homepage-link {
+    text-decoration: none;
+}
+
 @mixin footer {
     background-color: rgb(220, 160, 0);
     height: 100%;

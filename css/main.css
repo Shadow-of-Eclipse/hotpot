@@ -7,6 +7,9 @@ body main header .logo {
   display: inline;
   height: 200px;
 }
+body main header .homepage-link {
+  text-decoration: none;
+}
 body main header div.title-front {
   font-size: 4rem;
   color: rgb(255, 255, 0);
