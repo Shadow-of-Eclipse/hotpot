@@ -15,7 +15,7 @@
 
 @mixin logo-layout {
     display: inline;
-    height: 200px;
+    height: 20vw;
 }
 
 @mixin homepage-link {
@@ -33,6 +33,7 @@
     color: $link-font-color;
     font-weight: 500;
     margin-bottom: 0;
+    width: 20vw;
 }
 
 @mixin active-page {
@@ -49,6 +50,7 @@
     color: $hotpot-yellow;
     font-family:Arial, Helvetica, sans-serif;
     font-weight: 700;
+    width: 40vw;
 }
 
 @mixin title-back {
