@@ -7,22 +7,34 @@ body main header .logo {
   display: inline;
   height: 200px;
 }
-body main nav {
+body main header div.title-front {
+  font-size: 4rem;
+  color: rgb(255, 255, 0);
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 700;
+}
+body main header div.title-back {
+  font-size: 4rem;
+  color: rgb(220, 60, 0);
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 700;
+}
+body main header nav {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-body main nav a {
+body main header nav a {
   text-decoration: none;
-  color: rgb(200, 255, 50);
+  color: rgb(200, 200, 200);
   font-weight: 500;
   margin-bottom: 0;
 }
-body main nav a:hover {
+body main header nav a:hover {
   color: rgb(255, 150, 0);
 }
-body main nav :focus {
+body main header nav :focus {
   color: white;
 }
-body main nav .active-page {
+body main header nav .active-page {
   font-weight: bolder;
   color: rgb(0, 220, 220);
 }

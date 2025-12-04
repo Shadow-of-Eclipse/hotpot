@@ -2,8 +2,9 @@
 
 $hotpot-red:  rgb(220, 60, 0);
 $hotpot-green:  rgb(57, 181, 74);
+$hotpot-yellow: rgb(255, 255, 0);
 $button-active: rgb(0, 220, 220);
-$link-font-color:rgb(200, 255, 50);
+$link-font-color:rgb(200, 200, 200);
 
 body {
     main {
@@ -11,24 +12,31 @@ body {
             @include header-style;
             .logo {
                 @include logo-layout;
+            }      
+            div.title-front {
+                @include title-front;
+            }       
+            div.title-back {
+                @include title-back;
+            }   
+                
+            nav {
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    a {
+                        @include navbar
+                    }
+                    a:hover {
+                        color: rgb(255, 150, 0);
+                    }
+                    :focus {
+                        color: white;
+                    }
+                    .active-page {
+                        @include active-page
+                    }
             }
         }
-        nav {
-            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-                a {
-                    @include navbar
-                }
-                a:hover {
-                    color: rgb(255, 150, 0);
-                }
-                :focus {
-                    color: white;
-                }
-                .active-page {
-                    @include active-page
-                }
-            }
-            
+
         section.background-image {
             @include background-image;
         }

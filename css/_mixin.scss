@@ -39,3 +39,17 @@
 @mixin all-you-can-eat-video {
     margin-bottom: 20px;
 }
+
+@mixin title-front {
+    font-size: 4rem;
+    color: $hotpot-yellow;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 700;
+}
+
+@mixin title-back {
+    font-size: 4rem;
+    color: $hotpot-red;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+}
