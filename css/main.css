@@ -3,7 +3,7 @@ body main {
   background-size: cover;
   background-position: center;
   background-color: rgba(0, 0, 0, 0.5);
-  padding-bottom: 50px;
+  padding-bottom: 10px;
   margin-bottom: 0;
 }
 body main header {
@@ -47,6 +47,7 @@ body main section .store-info {
 }
 body main section .all-you-can-eat-video {
   margin-bottom: 20px;
+  overflow: hidden;
 }
 body footer {
   background-color: rgb(220, 160, 0);
