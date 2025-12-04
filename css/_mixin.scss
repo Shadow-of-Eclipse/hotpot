@@ -18,14 +18,16 @@
     height: 20vw;
 }
 
-@mixin homepage-link {
-    text-decoration: none;
+@mixin title-front {
+    font-size: 3rem;
+    color: $hotpot-yellow;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    width: 50vw;
 }
 
-@mixin footer {
-    background-color: rgb(220, 160, 0);
-    height: 100%;
-    text-align: center;
+@mixin homepage-link {
+    text-decoration: none;
 }
 
 @mixin navbar {
@@ -33,7 +35,13 @@
     color: $link-font-color;
     font-weight: 500;
     margin-bottom: 0;
-    width: 20vw;
+    width: 25vw;
+}
+
+@mixin footer {
+    background-color: rgb(220, 160, 0);
+    height: 100%;
+    text-align: center;
 }
 
 @mixin active-page {
@@ -43,14 +51,6 @@
 
 @mixin all-you-can-eat-video {
     margin-bottom: 20px;
-}
-
-@mixin title-front {
-    font-size: 3rem;
-    color: $hotpot-yellow;
-    font-family:Arial, Helvetica, sans-serif;
-    font-weight: 700;
-    width: 40vw;
 }
 
 @mixin title-back {
